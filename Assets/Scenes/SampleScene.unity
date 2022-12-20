@@ -287,7 +287,7 @@ Transform:
   m_GameObject: {fileID: 307187434}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0.001, z: 0}
-  m_LocalScale: {x: 0.009342111, y: 0.01, z: 0.0103}
+  m_LocalScale: {x: 0.0103, y: 0.01, z: 0.006562193}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 837248057}
@@ -327,7 +327,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0f0bf5de0aaf50146ac9411a71b02e97, type: 2}
+  - {fileID: 2100000, guid: 9a3c801ab2571ab4dbb72a7661135c56, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -376,7 +376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &337044409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,14 +761,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: disparador2
+  mTrackableName: ds2
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.0908425
+  mAspectRatio: 1.5088015
   mImageTargetType: 3
-  mWidth: 0.101756215
+  mWidth: 0.07356833
   mHeight: 0.111
-  mRuntimeTexture: {fileID: 2800000, guid: a066b85a970fe2a419a29dc8484012be, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 6406403654c049446b4f632d17a2410d, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -787,7 +787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 760192145}
   mHiddenRoot: {fileID: 0}
-  mTargetName: disparador2
+  mTargetName: ds2
   mDatasetName: 
   mCastedBehaviour: {fileID: 760192145}
   mMeshFilter: {fileID: 0}
@@ -1175,14 +1175,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: disparador3
+  mTrackableName: platja
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.1025345
+  mAspectRatio: 0.6371062
   mImageTargetType: 3
-  mWidth: 0.09342111
-  mHeight: 0.103
-  mRuntimeTexture: {fileID: 2800000, guid: 5c185b863e8406d43a9cb53cad3211a3, type: 3}
+  mWidth: 0.103
+  mHeight: 0.065621935
+  mRuntimeTexture: {fileID: 2800000, guid: fc6f46428c221464a987500c8a9e3041, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 837248060}
   mHiddenRoot: {fileID: 0}
-  mTargetName: disparador3
+  mTargetName: platja
   mDatasetName: 
   mCastedBehaviour: {fileID: 837248060}
   mMeshFilter: {fileID: 0}
@@ -1650,7 +1650,7 @@ Transform:
   m_GameObject: {fileID: 1159704528}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0.001, z: 0}
-  m_LocalScale: {x: 0.0103946, y: 0.01, z: 0.0137}
+  m_LocalScale: {x: 0.0137, y: 0.01, z: 0.008723503}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1330894320}
@@ -1690,7 +1690,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd94e9879bc2a8e4c912837853adc468, type: 2}
+  - {fileID: 2100000, guid: 8da2322b627dced42b11b44415d3da23, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1889,14 +1889,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: disparador1
+  mTrackableName: ds1
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.3179916
+  mAspectRatio: 0.63675207
   mImageTargetType: 3
-  mWidth: 0.10394603
-  mHeight: 0.137
-  mRuntimeTexture: {fileID: 2800000, guid: 83322bb7dd5ca2a43ba9588c08e342fa, type: 3}
+  mWidth: 0.137
+  mHeight: 0.08723503
+  mRuntimeTexture: {fileID: 2800000, guid: 181dec34b4a747e4dbfd6e4243d27f2f, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -1915,7 +1915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1330894323}
   mHiddenRoot: {fileID: 0}
-  mTargetName: disparador1
+  mTargetName: ds1
   mDatasetName: 
   mCastedBehaviour: {fileID: 1330894323}
   mMeshFilter: {fileID: 0}
@@ -2249,7 +2249,7 @@ Transform:
   m_GameObject: {fileID: 2067762846}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0.001, z: 0}
-  m_LocalScale: {x: 0.01017562, y: 0.01, z: 0.0111}
+  m_LocalScale: {x: 0.007356833, y: 0.01, z: 0.0111}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 760192142}
@@ -2289,7 +2289,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2a44b267d35f5e940b2e5d02b47c922a, type: 2}
+  - {fileID: 2100000, guid: 87a2b5db855252d4889f19b78b015f92, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
