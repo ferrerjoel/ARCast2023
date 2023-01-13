@@ -5,7 +5,7 @@ using UnityEngine;
 public class FramesAnimator : MonoBehaviour
 {
     public Texture2D[] frames; 
-    public byte framesPerSecond = 10;
+    public float framesPerSecond = 10;
     // Start is called before the first frame update
     void Start()
     {
