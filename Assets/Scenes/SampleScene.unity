@@ -272,6 +272,7 @@ GameObject:
   - component: {fileID: 290338897}
   - component: {fileID: 290338896}
   - component: {fileID: 290338895}
+  - component: {fileID: 290338899}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -375,6 +376,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290338893}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &290338899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290338893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b2e2fb6d3e5f140a8d55f6f2c62611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  demonObject: {fileID: 2123206788}
+  demonObject2: {fileID: 817728534}
 --- !u!1 &307187434
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &337044409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,7 +1161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &775680679
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1595,8 +1610,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: diablito2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ddf69be27358fd24c83a2cfa95b1b40f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf69be27358fd24c83a2cfa95b1b40f, type: 3}
+--- !u!1 &817728534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ddf69be27358fd24c83a2cfa95b1b40f, type: 3}
+  m_PrefabInstance: {fileID: 817728533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &837248056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,7 +1772,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910806300}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2293, y: 0, z: 0}
+  m_LocalPosition: {x: 1.2293, y: 0, z: -0.001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3874,15 +3898,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 301b42048c65d734cb87b0e5785f839f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 110
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 301b42048c65d734cb87b0e5785f839f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 110
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 301b42048c65d734cb87b0e5785f839f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 110
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 301b42048c65d734cb87b0e5785f839f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3934,3 +3958,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301b42048c65d734cb87b0e5785f839f, type: 3}
+--- !u!1 &2123206788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 301b42048c65d734cb87b0e5785f839f, type: 3}
+  m_PrefabInstance: {fileID: 2123206787}
+  m_PrefabAsset: {fileID: 0}
